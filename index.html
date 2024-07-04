@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="navbar-left">
+                    <a href="#home" class="nav-link">PamoDev</a>
+                </div>
+                <div class="navbar-right">
+                    <a href="#footer" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="content">
+                <div class="left">
+                    <h1 class="text-one">Hi, I'm Ukwe Pamode</h1>
+                    <p class="text-two">Front-end Developer</p>
+                </div>
+                <div class="right">
+                    <img src="image.jpg" alt="Profile Picture" class="profile-img" data-testid="slackProfilePicture">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="content">
+                <div class="left">
+                    <h2>My tech goals</h2>
+                    <div class="write-up">
+                        <p>I am a Frontend Developer from Rivers State, Nigeria who is currently undergoing internship at <a data-testid="hngLink" href="https://hng.tech/learn">Hng</a>.</p>
+                        <p>
+                            Over the next two years, my goal would be to learn more about web devlopment as I provide value as a member of a team in a company or as a  freelance developer. Either way, I am excited for what the future holds.
+                             <a data-testid="keywordLink" href="https://keyword.dog/">keyword</a><span>&nbsp;</span><a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site/">&nbsp;scrapeanywebsite</a>
+                        </p>
+                        <p>Slack name: <span data-testid="slackDisplayName">PamoDev</span></p>
+                        <p>Current time: <span data-testid="currentTimeUTC" id="time"></span></p>
+                        <p>Current day: <span data-testid="currentDay" id="day"></span></p>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer" class="footer-content">
+            <p class="feet">Phone : +234 810 674 7706</p>
+            <p class="feet">email: <span data-testid="slackEmail">ebenezerukwe@gmail.com</span></p>
+            <p class="feet">&copy; 2024 PamoDev All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

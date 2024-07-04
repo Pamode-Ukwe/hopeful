@@ -1,0 +1,91 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: beige;
+}
+.text-one{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-two{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: lightseagreen;
+}
+.nav-link {
+    color: lightseagreen;
+    text-decoration: none;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.section {
+    margin-top: 80px; /* To account for the fixed navbar */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feet{
+    padding: 20px;
+}
+.left {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.write-up {
+    font-size: large;
+    font-weight: 100px;
+    padding: 45px;
+    line-height: 4;
+    letter-spacing: 1.2px;
+    word-spacing: 5px;
+}
+.right {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
